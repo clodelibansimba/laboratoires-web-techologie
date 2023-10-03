@@ -1,0 +1,25 @@
+.textarea {
+    width: 10%;
+    height: 10px;
+    border-right-style: double;
+    font-size: small;
+    box-sizing: content-box;
+    overflow-y: scroll;
+   overflow-x: scroll;
+}
+.password {
+    width: 10%;
+    height: 10px;
+    border-right-style: double;
+    font-size: small;
+    box-sizing: content-box;
+    overflow-y: scroll;
+   overflow-x: scroll;
+}
+.options li{
+    padding: auto;
+    background-color: aqua;
+}
+.body{
+    background-color: rgb(97, 40, 162);
+}
