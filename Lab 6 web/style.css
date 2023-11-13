@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+}
+button{
+    width: 90px;
+    height: 35px;
+    background-color: rgba(234, 255, 0, 0.648);
+    border-color: rgba(5, 8, 10, 0.541);
+    border: 20 solid;
+}
