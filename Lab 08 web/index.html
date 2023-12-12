@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Лабораторная работа 8</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <body><center>
+            <h2>Задание 1</h2>
+            <div class="calculator-container">
+                <h1>Финансовый калькулятор</h1>
+                <div>
+                    <label for="initial-amount">Начальная сумма:</label>
+                    <input type="number" id="initial-amount">
+                </div>
+                <div>
+                    <label for="interest-rate">Процентная ставка, %:</label>
+                    <input type="number" id="interest-rate">
+                </div>
+                <div>
+                    <label for="deposit-period">Срок вклада, в годах:</label>
+                    <input type="number" id="deposit-period">
+                </div>
+                <button onclick="calculate()">Рассчитать</button>
+                <div>
+                    
+                    <h2>Результат:</h2>
+                    <p>Сумма на вкладе в конце срока: <span id="result-amount"></span></p>
+                    <p>Доход клиента банка: <span id="result-profit"></span></p>
+                </div>
+                <canvas id="chart"></canvas>
+                
+            </div>
+
+        </center>
+
+    </body>
+</html>
